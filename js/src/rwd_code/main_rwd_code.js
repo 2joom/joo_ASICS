@@ -58,34 +58,17 @@ var starMove = setInterval(bannerMove, 3000);
 
 // var stopMove = function(){
 //   clearInterval( starMove );
-};
+}
 
 
 
 
 // Tablet ==============================================
- function Tablet(){
-    
-
-
-
-
-
-  };
+  function Tablet(){}
 
   // Pc ==============================================
- function Pc(){
-  
-
-
-
-  };
+  function Pc(){}
 
 // PcFull ==============================================
-  function PcFull(){
-   
-
-
-   
-  };
+   function PcFull(){}
 })(jQuery);
