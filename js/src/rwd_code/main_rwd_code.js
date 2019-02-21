@@ -26,7 +26,7 @@
   var banneImg01 = banneImg.children('div').eq(0).width();
   var indicator = $('.indicator');
   var indiLi = indicator.find('li');
-console.log(banneImg01)
+console.log(banneImg01);
 indicator.remove();
 
 
@@ -58,7 +58,7 @@ var starMove = setInterval(bannerMove, 3000);
 
 // var stopMove = function(){
 //   clearInterval( starMove );
-// };
+};
 
 
 
