@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* asics_women_common.css */
+
+/*body{background-color: transparent;}*/
+
+          
+#wrap{position:relative; width: 100%; height: 100%; text-align: center; margin:auto; }
+h2{ color:#001e62; text-transform: capitalize; }
+i{font-style: normal;}
+
+
+/* #mainBox============================================= */
+#mainBox{position: relative; overflow: hidden; width:auto; height: 100%; min-width:100%; font-family: '돋움' , Dotum;}
+.main_img{width: 100%; height: 100%; background-image: url("../../../../img/img_psd/main_bg.png"); background-repeat: no-repeat; background-position:0 0; background-size: cover;}
+.main_text{position: absolute; z-index: 300; top:10%; left:68vw; width: 310px; height: 274px; background-color:transparent;}
+.main_text>p{width: 100%; text-align: left; text-transform:uppercase; font-weight:1000; color:#313a41; }
+.main_text>p:first-child{font-size:4rem;}
+.main_text>p:last-child{font-size:1.5rem;}
+.main_btn{position: absolute; z-index: 300; top:50%; left:68vw;width: 120px; height:50px;}
+.main_btn>button{display: block; width: 100%; height: 100%; font-weight: bold; font-size:1.1rem; letter-spacing:2.5px; color:#fff; border-radius: 1rem;  background-color: #001e62;}
+
+
+/* #artBox ==========================================================*/
+#artBox{margin:200px 0; width: 100%; height:100%; font-family: '돋움' , Dotum;  background-color: #f9f9f9;}
+#artBox>h2{padding:30px 0; width: 100%; height: 40px; font-weight: bold; letter-spacing:2px; text-transform: uppercase; font-size: 2.8rem; color:#222222;}
+.art_p{margin: auto; margin-top: 30px; width: 70%; height: 150px;}
+.art_p>p{text-transform: uppercase; text-indent:0.7rem; letter-spacing:2px; text-align: left; font-size:1.5rem; line-height: 1.6;color:#222222;}
+.art_p>p>span{font-weight: bold;color:#222222;}
+.art_img{margin: auto; margin-top: 30px; padding:0 10px; box-sizing: border-box; width: 95%; height: 300px;}
+.art_img>div{width:19%; height: 250px; background-color: #f91;
+  background-repeat: no-repeat; background-position: center; background-size: cover;}
+.art_img>div:last-child{margin-right:0;}
+.art_img01{background-image: url("../../../../img/asics_img/club_01.jpg");}
+.art_img02{background-image: url("../../../../img/asics_img/club_02.jpg");}
+.art_img03{background-image: url("../../../../img/asics_img/club_03.jpg");}
+.art_img04{background-image: url("../../../../img/asics_img/club_04.jpg");}
+.art_img05{background-image: url("../../../../img/asics_img/club_05.jpg");}
+
+
+
+/* #bannerBox============================================= */
+#bannerBox{margin-top:200px; width: 100%; height: 300px; background-color: #1ca;}
+#bannerBox>h2{padding-top: 40px; width: 100%; height: 40px; font-weight: bold; letter-spacing:2px; text-transform: uppercase; font-size: 2.8rem; color:#111;}
+.ban_text{margin: auto; margin-top: 40px; width:80%; height: 150px; }
+.ban_text>dl{float:left; padding:40px 0; box-sizing: border-box; margin-right:5%; width: 30%; height: 100%; }
+.ban_text>dl:last-child{margin-right: 0;}
+.ban_text>dl>dt{width: 100%; height: 30%; text-transform: uppercase; font-weight: bold; font-size: 1.2rem;  line-height:20px;}
+.ban_text>dl>dd{width: 100%; height: 70%; }
+
+
+/* coachBox============================================ */
+#coachBox{margin: 200px 0; height:100%; background-color: #a9a;}
+#coachBox>h2{margin: auto; padding-bottom:2.5%; box-sizing: border-box; width:30%; height: 5%; background-color: #aac;}
+.coach_box{width: 100%; height:90%; background-color: #ac3;}
+.coach_box>div>div{background-repeat: no-repeat; background-position: 0 0; background-size: contain;}
+.coach_img01{background-image: url("../../../../img/asics_img/coach_01.jpg");}
+.coach_img02{background-image: url("../../../../img/asics_img/coach_02.jpg");}
+.coach_img03{background-image: url("../../../../img/asics_img/coach_03.jpg");}
+.coach_img04{background-image: url("../../../../img/asics_img/coach_04.jpg");}
+.coach_img05{background-image: url("../../../../img/asics_img/coach_05.jpg");}
+
+.font{color:#737373;}
+
+/*.coach_box01{}*/
+/*.coach_img{}*/
+/*.coach_info{}*/
+/*.info01{}*/
+/*.info02{}*/
+
+
+
+
+
+
+
+

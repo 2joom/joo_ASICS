@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* asics_main_common.css */
+
+/*body{background-color: transparent;}*/
+
+#wrap{position:relative; width: 100%; height: 100%; text-align: center; margin:auto; font-family: '맑은 고딕' , Malgun Gothic;}
+h2{font-family: '맑은 고딕' , Malgun Gothic; color:#001e62; text-transform: capitalize; }
+
+
+/* #mainBox---------------------------------------- */
+#mainBox{width:100%; height:100%; background-color:transparent;}
+.main_big{width: 100%; height: 75%; background-color: #abb; margin-bottom: 2%;}
+.main_video{position: relative; width: auto; min-width: 100%; height: auto; min-height: 100%; overflow: hidden;}
+.main_video>video{position: absolute; left:50%; transform: translateX(-50%);}
+
+.main_small{width: 100%; height: 23%; text-align: center; font-family: '맑은 고딕' , Malgun Gothic;}
+.main_txt{width: 100%; height: 50%; line-height: 75px; text-transform: capitalize;}
+.main_txt>p{font-size: 1.5rem; font-weight: bolder;}
+.main_btn{width: 100%; height: 45%;}
+.main_btn01{float:left; width: 45%; height: 100%; margin-right:5%;}
+.main_btn02{float:right; width: 45%; height: 100%;}
+
+.main_btn01>button{width: 80%; height: 100%; border-radius: 1.6rem; background-color: #00c3e6; color:#001e62;; font-size: 1.3rem; font-weight: bolder;}
+.main_btn02>button{width: 80%; height: 100%; border-radius: 1.6rem; background-color: #00c3e6; color:#001e62;; font-size: 1.3rem; font-weight: bolder;}
+
+
+
+
+/* #menuBox---------------------------------------- */
+#menuBox{position:relative; width:100%; height:100%; background-color: #001e62;}
+  .menu_big{position: absolute; top:50%; transform: translateY(-50%); width: 100%; height: auto;}
+    .menu_go{width: 100%; margin-bottom:20px; border-radius: 3rem; background-color: #fff; overflow: hidden;}
+
+    .view_01{float:left; width: 40%; height: 100%;  background-color: #00c3e6;}
+    .view_01>a{position:relative; display: block; width: 100%; height: 100%; text-align: center; line-height: 1.1; font-size: 2.75rem; font-weight: bold; color:#001e62; text-transform: capitalize;}
+
+    .view_01>a>p{display: block; position: absolute; top:50%; left:0;  padding-left: 0.5rem; box-sizing: border-box; transform: translateY(-50%); width: 100%; height: auto;}
+
+    .view_02{float:right; width: 45%; height: 100%;}
+
+.menu_img01{background-image: url("../../../../img/img_psd/men_img.png"); background-repeat: no-repeat;}
+.menu_img02{background-image: url("../../../../img/img_psd/women_img.png"); background-repeat: no-repeat;}
+.menu_img03{background-image: url("../../../../img/img_psd/kids_img.png"); background-repeat: no-repeat;}
+.menu_img04{background-image: url("../../../../img/img_psd/wa.png"); background-repeat: no-repeat;}
+
+  
+ 
+/* #bannerBox---------------------------------------- */
+#bannerBox{position: relative; width: 100%; height: 100%; /*background-color: #fff;*/}
+  .media2{ width: auto; min-width: 100%; height: auto;  overflow: hidden;}
+  .media2>video{width:100%; height:100%; }
+
+  .banner_view{width: 100%; height: 100%; /*background-color: #fff;*/ overflow: hidden; margin-top: 1rem;}
+
+    .banner_img{width:120%; height: 100%; margin-bottom:2rem;}
+    .banner_img>div{float:left; margin-right: 1%;
+      width: 24%; height:100%; }
+      
+    .banner_img>div>a{display: block; width: 100%; height: 100%; background-repeat: no-repeat;  background-color: transparent;}
+    .banner_img>div,
+    .banner_img>div>a:last-child{margin-right: 0;}
+
+    .banner01>a{background-image: url("../../../../img/img_psd/best_img01.png"); }
+    .banner02>a{background-image: url("../../../../img/img_psd/pants.png"); }
+    .banner03>a{background-image: url("../../../../img/img_psd/outer.png"); }
+    .banner04>a{background-image: url("../../../../img/img_psd/Background.jpg"); }
+
+    .indicator{width: 30%; bottom:1rem; background-color:transparent;}
+    .indicator>ul{width: 100%; height: 100%;}
+    .indicator>ul>li{float:left; width: 20%; height: 100%; }
+    .indicator>ul>li:last-child{margin-right:0;}
+    .indicator>ul>li>a{border-radius:50%; background-color:#00c3e6;}
+    
+    .indicator>ul>li.active>a,
+    .indicator>ul>li.active>a{background-color: #001e62;}
+
+
+
+ /* #viewBox---------------------------------------- */
+ #viewBox{position: relative; width: 100%;}
+ .view{position: absolute; top:50%; left: 50%; 
+  height: 100%; width: 100%;
+  background-image: url("../../../../img/asics_img/view.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  /*transform: translate(-50% , -25%);*/
+background-size:  contain;}
+
+
+
+  /*#artBox---------------------------------------- */
+#artBox{width: 100%; height: 100%; background-color: #fff;}
+.art_box>div{background-repeat: no-repeat; background-size: contain;}
+.art01{background-image: url("../../../../img/img_psd/img1.png");}
+.art02{background-image: url("../../../../img/img_psd/img2.png");}
+.art03{background-image: url("../../../../img/img_psd/img3.png");}
+.art04{background-image: url("../../../../img/img_psd/img4.png");}
+.art05{background-image: url("../../../../img/img_psd/img5.png");}
+.art06{background-image: url("../../../../img/img_psd/img6.png");}
+.art07{background-image: url("../../../../img/img_psd/IMG_6376.png");}
+.art08{background-image: url("../../../../img/img_psd/img_.png");}
+
+
+
+

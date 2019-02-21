@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* asics_w_a.css */
+@import url("./common/header.css");
+@import url("./common/footer.css");
+@import url("./w_a_layout/asics_w_a_common.css");
+@import url("./w_a_layout/asics_w_a_mobile.css");
+@import url("./w_a_layout/asics_w_a_tablet.css");
+@import url("./w_a_layout/asics_w_a_labtop.css");
+@import url("./w_a_layout/asics_w_a_pcfull.css");

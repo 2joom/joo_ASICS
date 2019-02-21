@@ -1,0 +1,139 @@
+/* footer.css */
+
+/* common.css */
+/* #footBox---------------------------------------- */
+#footBox{position: relative; z-index: -1; width: auto; min-width:100%; height: auto; background-color:#00c3e6; font-family: '맑은 고딕' , Malgun Gothic;} 
+.foot_bg{position: absolute; top:0; left:0; display: block; width:100%; height:85%; background-color:#001e62;}
+.foot_bg>.container{width: 100%; height: 100%;}
+.foot_h2{width: 27%; height: 10%; margin: auto;
+  background-image: url("../../../../img/img_psd/Vector Smart Object.png"); 
+  background-repeat: no-repeat; 
+  background-position: 0 0; 
+  background-size: contain;}
+  
+
+#footBox01{float:left; width: 100%; height: 60%;}
+#footBox01>dl{float:left;  width: 24%; height: 100%; margin-left:1%; }
+#footBox01 dt{width: 100%; height: 20%; border-radius: 3rem; box-shadow: 0.5rem 0.5rem 0.5rem rgba(200,200,200,0.3);}
+
+#footBox01 dl>dt>a{color:#fff; width: 100%; height: 100%; font-weight: bold;}
+#footBox01 dl>dd>a{color:#fff; width: 100%; height: 100%; padding-bottom:0.5rem; background-color:transparent;}
+#footBox01 dd>a{display: none;}
+#footBox01 a{text-transform: capitalize;}
+
+#footBox01 dl:hover>dd>a,
+#footBox01 dl:focus>dd>a{display: block;}
+
+#footBox01>.foot_box04>dt>a{text-transform:uppercase; }
+.foot_box04>dd{float:left; padding-top: 0.5rem; box-sizing: border-box; width: 32%; height: 20%; margin-left: 1%; }
+#footBox01>.foot_box04>dd>a{width: 100%; height: 100%; float: left; background-color: transparent;}
+
+.face>a{width: 100%; height: 100%; background-image: url("../../../../img/img_psd/face.jpg"); background-repeat: no-repeat; background-position: center; background-size: contain;}
+.kakao>a{width: 100%; height: 100%; background-image: url("../../../../img/img_psd/ka.jpg"); background-repeat: no-repeat; background-position: center; background-size: contain;}
+.instar>a{width: 100%; height: 100%; background-image: url("../../../../img/img_psd/001-instagram.jpg"); background-repeat: no-repeat; background-position: center; background-size: contain;}
+
+address{float:left; width: 80%; height: 20%; color:#fff; font-style: normal; text-align:justify; }
+address+p{float:left; width: 100%; height: 5%; font-size: 1rem;}
+
+
+
+
+
+
+/* mob start */
+@media screen and (max-width: 480px){
+/* #footBox ----------------------------------------- */
+#footBox{height:310px; padding-top:20px; box-sizing:border-box;}
+  .container>.foot_h2{width:20%; height: 12%; margin-top: 10px; margin-bottom:5px; }
+
+  .foot_bg dl>dt>a{font-size: 13px;}
+  #footBox01 dl:hover>dd>a,
+  #footBox01 dl:focus>dd>a{font-size: 10px;}
+  #footBox01 dt{box-shadow: 0.2rem 0.2rem 0.2rem rgba(200,200,200,0.3);}
+
+  address{width: 100%; height: 15%; padding-top:5.5%;}
+  address>p{font-size: 0.5rem; width: 100%;}
+  address+p{float:left; padding-top:0.75rem; width: 100%; height: 5%; font-size: 0.7rem;}
+
+}
+/* mob end */
+
+
+
+
+/* tablet start */
+
+@media screen and (min-width: 481px) and (max-width: 768px){ 
+/* #footBox ----------------------------------------- */
+#footBox{height: 300px; padding-top:37px; box-sizing:border-box;}
+  .foot_bg+.container{width: 80%; height: 100%;}
+  .foot_bg .foot_h2{width: 20%; height: 15%; margin-top: 15px; margin-bottom: 15px;}
+  
+  #footBox01 dl{width: 20%; margin-left: 4.5%;}
+  #footBox01 dt{height: 15%; box-shadow:inset 0.3rem 0.3rem 0.3rem rgba(200,200,200,0.3) ;}
+
+  #footBox01 dl>dd>a{padding-bottom:0.2rem; font-size: 1rem;}
+  
+  .foot_bg dl>dt>a{font-size: 1rem;}
+  #footBox01 dl:hover>dd>a,
+  #footBox01 dl:focus>dd>a{font-size:0.8rem;}
+
+  address{width: 100%; height: 18%; padding-top: 0.5rem;}
+  address>p{font-size: 0.7rem; width: 100%;}
+  address+p{float:left; width: 100%; height: 5%; font-size: 0.7rem;}
+
+}
+/* tablet end */
+
+
+
+
+
+
+/* labtop */
+@media screen and (min-width: 769px) and (max-width: 960px){
+/* #footBox ------------------------------------------------------------- */
+  #footBox{height:380px; padding-top:20px; box-sizing:border-box;}
+  .foot_bg>.container{width:80%; height: 100%;}
+  .foot_bg .foot_h2{width:15%; height:11%; margin-top: 15px; margin-bottom: 15px;}
+  
+  #footBox01 dl{width: 20%; margin-left: 4.5%;}
+  #footBox01 dt{height: 16%;}
+  #footBox01 dl>dd>a{padding-bottom:0.2rem;}
+  
+  .foot_bg dl>dt>a{font-size: 1.3rem;}
+  #footBox01 dl:hover>dd>a,
+  #footBox01 dl:focus>dd>a{font-size: 1rem;}
+  
+  address{width: 100%; padding-top:11px; box-sizing:border-box;}
+  address>p{font-size: 0.9rem;}
+  address+p{float:left; width: 100%; height: 5%; font-size: 1rem;}
+ 
+}
+/* labtop end */
+
+
+
+
+/* pc full */
+@media screen and (min-width: 961px){
+/* #footBox ------------------------------------------------------------- */
+  #footBox{height:380px; padding-top:20px; box-sizing:border-box;}
+  .foot_bg>.container{width:60%; height: 100%;}
+  .foot_bg .foot_h2{width:11%; height:13%; margin-top: 15px; margin-bottom: 15px;}
+  
+  #footBox01 dl{width: 20%; margin-left: 4.5%;}
+  #footBox01 dt{height: 16%;}
+  #footBox01 dl>dd>a{padding-bottom:0.2rem;}
+  
+  .foot_bg dl>dt>a{font-size: 1.3rem;}
+  #footBox01 dl:hover>dd>a,
+  #footBox01 dl:focus>dd>a{font-size: 1rem;}
+  
+  address{padding-top:15px; box-sizing:border-box;}
+  address>p{font-size: 0.9rem;}
+  address+p{float:left; width: 100%; height: 5%; font-size: 1rem;}
+
+ 
+}
+/* pc full end */

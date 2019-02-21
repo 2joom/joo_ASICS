@@ -1,1 +1,0 @@
-# joo_asics

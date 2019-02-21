@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* asics_men_common.css */
+
+/*body{background-color: transparent;}*/
+
+#wrap{position:relative; width: 100%; height: 100%; text-align: center; margin:auto;}
+h2{font-family: '맑은 고딕' , Malgun Gothic; color:#001e62; text-transform: capitalize; }
+.container{width: 100%; height: 100%;}
+
+
+
+/* #mainBox---------------------------------------- */
+#mainBox{width:100%; height:100%; background-color:transparent;}
+.main_big{width: 100%; height: 75%;}
+.main_video{position: relative; width: auto; min-width: 100%; height: auto; min-height: 100%; overflow: hidden;}
+.main_video>video{position: absolute;}
+
+.main_small{width: 100%; height: 23%; text-align: center; font-family: '맑은 고딕' , Malgun Gothic;}
+.main_txt{width: 100%; height: 50%; line-height: 75px; text-transform: capitalize;}
+.main_txt>p{font-size: 1.5rem; font-weight: bolder;}
+.main_btn{width: 100%; height: 45%;}
+.main_btn01{float:left; width: 45%; height: 100%; margin-right:5%;}
+.main_btn02{float:right; width: 45%; height: 100%;}
+
+.main_btn01>button{width: 80%; height: 100%; border-radius: 1.6rem; background-color: #00c3e6; color:#001e62; font-size: 1.3rem; font-weight: bolder;}
+.main_btn02>button{width: 80%; height: 100%; border-radius: 1.6rem; background-color: #00c3e6; color:#001e62; font-size: 1.3rem; font-weight: bolder;}
+
+
+
+
+/* #bannerBox---------------------------------------- */
+#bannerBox{width: 100%; height:30rem; background-color:#001e62; } 
+  .ban_h2{width:15%; height:10%; font-family: '맑은 고딕' , Malgun Gothic; color:#fff;} 
+  .banner_big{width: 100%; height:80%; }
+  .banner_big>div{float:left; margin-right:1.75rem;
+    width: 31%; height: 100%; box-shadow:0.5rem 0.5rem 0.5rem rgba(0,0,0,0.5);}
+  .banner_big>div>a{position: relative; display: block; width: 100%; height: 100%;}
+  .banner_big>div>a>span{position: absolute; width: 100%; color:rgba(255,255,255,0.7);}  
+
+  .banner_01>a{
+    background-image: url("../../../../img/img_psd/men1.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+  }
+  .banner_02>a{
+    background-image: url("../../../../img/img_psd/men22.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+  }
+  .banner_03>a{
+    background-image: url("../../../../img/img_psd/men3.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+  }
+
+ 
+/* #bestBox---------------------------------------- */
+#bestBox{width: 100%; height:50rem; margin:100px 0; }  
+  .best_h2{margin:auto; margin-bottom: 33px; 
+    width: 285px; height: 52px; font-size: 3rem; text-transform: uppercase; font-family: '맑은 고딕' , Malgun Gothic;}
+  .best_big{width: 90%; height: 80%; }
+  .best{float:left; margin-top: 1%; margin-left: 1%; 
+    width: 30%; height: 30%;}
+
+  .best>div:nth-child(1){margin-bottom: 0.5rem; width: 100%; height: 80%; 
+    box-shadow:0.3rem 0.3rem 0.3rem rgba(0,0,0,0.5);}
+  .best>div:nth-child(2){width: 100%; height: 10%;  text-transform: uppercase;}
+  .best>div:nth-child(3){width: 100%; height: 10%; }
+  
+  .best_name>a,.best_img>a,
+  .best_price>a{display: block; width: 100%; height: 100%;}
+
+  .best_name span,
+  .best_price span{display: block; color:#001e62; font-weight: bold;}
+
+
+  .best_img01>a{
+    background-image: url("../../../../img/img_psd/best_img01.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; 
+    background-size: contain;}
+  .best_img02>a{
+    background-image: url("../../../../img/img_psd/best_img02.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0; 
+    background-size: contain;}
+  .best_img03>a{
+    background-image: url("../../../../img/img_psd/best_img03.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; 
+    background-size: contain;}
+  .best_img04>a{
+    background-image: url("../../../../img/img_psd/best_img04.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0; 
+    background-size: contain;}
+  .best_img05>a{
+    background-image: url("../../../../img/img_psd/best_img05.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; 
+    background-size: contain;}
+  .best_img06>a{
+    background-image: url("../../../../img/img_psd/best_img06.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; 
+    background-size: contain;}
+  .best_img07>a{
+    background-image: url("../../../../img/img_psd/best_img07.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0; 
+    background-size: contain;}
+  .best_img08>a{
+    background-image: url("../../../../img/img_psd/best_img08.jpg");
+    background-repeat: no-repeat;
+    background-position: 0 0; 
+    background-size: contain;}
+  .best_img09>a{
+    background-image: url("../../../../img/img_psd/best_img09.png");
+    background-repeat: no-repeat;
+    background-position: 0 0; 
+    background-size: contain;}
+
+
+ /* #viewBox---------------------------------------- */
+ #viewBox{width: 100%; height: 100%;}
+ .view{height: 100%; width: 100%;}
+ .view>a{display: block; width: 100%; height: 100%;
+  background-image: url("../../../../img/img_psd/asics_run.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:  contain;}
+
+
+/* #sportBox---------------------------------------- */
+  #sportBox{width: 100%; height:30rem; }  
+    .sport_h2{width:15%; height:10%; text-transform: uppercase; font-family: '맑은 고딕' , Malgun Gothic;} 
+  .sport_big{width: 100%; height:80%; }
+  .sport_big>div{float:left; margin-right:1.75rem;
+    width: 31%; height: 100%; 
+    box-shadow:0.3rem 0.3rem 0.3rem rgba(0,0,0,0.5);}
+
+  .sport_big>div>a{position: relative; display: block; width: 100%; height:100%;}
+  .sport_big>div>a>span{position: absolute; color:rgba(255,255,255,0.7);}
+
+  .sport_img01>a{
+    background-image: url("../../../../img/img_psd/Layer 4.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;}
+  .sport_img02>a{
+    background-image: url("../../../../img/img_psd/Layer 5.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;}
+  .sport_img03>a{
+    background-image: url("../../../../img/img_psd/Layer 6.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;}

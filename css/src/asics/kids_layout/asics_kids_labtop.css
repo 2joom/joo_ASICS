@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* asics_kids_labtop.css */
+
+
+/* pc start */
+@media screen and (min-width: 769px) and (max-width: 960px){
+
+/* #mainBox ------------------------------------------------ */
+#mainBox{height:40rem; padding-top: 130px;} 
+.main_small{height:6%;}
+
+.main_indicator{margin: auto; width:20%; height: 100%;}
+.main_indicator>li{float:left; margin-right: 0.4rem; width: 22%; height: 100%;}
+.main_indicator>li:last-child{margin-right: 0;}
+
+.main_btn>.next_btn{width:6%; height:5rem; background-size:contain;}
+.main_btn>.prev_btn{width:6%; height:5rem; background-size:contain;}
+
+.main_img>.main_img01>a{background-size: cover;}
+.main_img>.main_img02>a{background-size: cover;}
+.main_img>.main_img03>a{background-size: cover;}
+.main_img>.main_img04>a{background-size: cover;}
+
+
+ 
+/* #bestBox---------------------------------------- */
+#bestBox{width: 100%; height:50rem; margin:150px 0;   }  
+  .best_h2{font-size: 2.5rem;}
+  .best{float:left; margin-top: 5%; margin-left: 3.1%;
+    width: 30%; height: 45%; }
+
+  .best_img01>a{background-position: 50% 50%; background-size: contain;}
+  .best_img02>a{background-position: 50% 50%; background-size: contain;}
+  .best_img03>a{background-position: 0 50%; background-size: contain;}
+  .best_img04>a{background-position: 0 0; background-size: contain;}
+  .best_img05>a{background-position: 50% 50%; background-size: contain;}
+  .best_img06>a{background-position: 50% 50%; background-size: contain;}
+  .best07,.best08,.best09{display: none;}
+
+
+/* #shopBox=========================================================== */
+ #shopBox{width: 100%; height: 25rem; background-color:transparent; /*rgba(0,26,108,0.4);*/ margin-bottom: 200px; padding:0 10%; box-sizing: border-box;}
+ .size{margin: auto; width: 80%;}
+  .shop_h2{margin: auto; text-transform: uppercase; width: 30%; height:10%; background-color: transparent; padding:1.5rem 0;}
+  
+  .size>.kids,
+  .size>div{width: 100%; height: 30%; margin-bottom:1rem;}
+  .size>div:last-child{margin-bottom:0;}
+
+  .shop_img{width: 40%;}
+  .shop_text{width: 50%;}
+  
+  .shop_text>ul{height:70%;}
+  .shop_text>ul>li>span{font-size: 1rem; text-indent: 0.9rem;}
+
+  .shop_img>button{background-position: center; background-size:70%;}
+
+
+
+
+
+/* #sportBox---------------------------------------- */
+  #sportBox{width: 100%; height:30rem; margin: 200px 0;  }  
+    .sport_h2{margin: auto; margin-bottom: 5%;
+      width:20%; height:10%; line-height: 45px; font-size: 2.8rem;} 
+  .sport_big{width: 100%; height:80%; }
+  .sport_big>div{float:left; margin-right:2%;
+    width: 32%; height: 100%; 
+    box-shadow:0.3rem 0.3rem 0.3rem rgba(0,0,0,0.5);}
+  .sport_big>div:nth-of-type(3){margin-right: 0;}
+
+  .sport_big>div>a{position: relative; display: block; width: 100%; height:100%;}
+  .sport_big>div>a>span{position: absolute;}
+
+  .sport_img01>a{
+    background-position: 0 0;
+    background-size: cover;}
+  .sport_img02>a{
+    background-position: 0 0;
+    background-size: cover;}
+  .sport_img03>a{
+    background-position: 0 0;
+    background-size: cover;}
+
+  .sport_big>div>a>span{bottom: 0.65rem; left:0.65rem; 
+    color:#fff; font-weight: bold; font-size: 1.8rem;}
+
+
+
+ /* #viewBox---------------------------------------- */
+#viewBox{width: 100%; height: 40rem;}
+ .view{height: 100%; width: 100%;}
+ .view>a{display: block; width: 100%; height: 100%;
+  background-position: center;
+  background-size:  contain;}
+
+
+
+/* #bannerBox---------------------------------------- */
+#bannerBox{height:30rem; margin-bottom: 300px;} 
+  .ban_h2{margin: auto; margin-bottom:2rem; width:20%; height:10%; font-size: 2rem;} 
+  .banner_big>div>a>span{font-size: 1.8rem;}  
+
+  .banner_01>a{background-position: center; background-size: cover;}
+  .banner_02>a{background-position: center; background-size: cover;}
+  .banner_03>a{background-position: center; background-size: cover;}
+
+
+}
+/* pc end */

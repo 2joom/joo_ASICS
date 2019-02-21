@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* asics_main.css */
+@import url("./common/header.css");
+@import url("./common/footer.css");
+@import url("./kids_layout/asics_kids_common.css");
+@import url("./kids_layout/asics_kids_mobile.css");
+@import url("./kids_layout/asics_kids_tablet.css");
+@import url("./kids_layout/asics_kids_labtop.css");
+@import url("./kids_layout/asics_kids_pcfull.css");
+
+
+
+
+
+
+
+
+
